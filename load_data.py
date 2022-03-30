@@ -7,6 +7,12 @@ class Load:
     This is use for loading data.
     """
     def __init__(self, path,train_num=60000,test_num=10000,type_num=10):
+        """
+        :param path: the path where data locates
+        :param train_num: sample size of training set
+        :param test_num: sample size of test set
+        :param type_num: type of label
+        """
         mndata = MNIST(path)
         # read train dataset
         train_images, train_labels = mndata.load_training()
