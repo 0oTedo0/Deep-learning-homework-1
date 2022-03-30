@@ -20,3 +20,6 @@
 ## 测试步骤
 - 若想测试训练出来的模型，请执行以下指令，并按照指示输入模型文件名称。
 ```python load_model.py```
+
+## 模型文件
+https://drive.google.com/drive/folders/1Yl6H1DfXmdn0E13HHiplJNTuIAGL1qja?usp=sharing
